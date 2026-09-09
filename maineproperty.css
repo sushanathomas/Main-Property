@@ -1,0 +1,185 @@
+*{
+  box-sizing: border-box;
+  padding: 0; 
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif; 
+  background: rgb(236, 243, 236); 
+  overflow: auto;
+}
+
+/*
+  ========================================
+  HEADER
+  ========================================
+*/
+
+header{
+  background: rgb(58, 103, 58);
+  color: white;
+  font-weight: 50px; 
+  height: 50px;
+  padding: 15px; 
+}
+header h2{
+  display: inline-block;
+  margin: 0; 
+  font-size: 18px;
+}
+
+header nav{
+  font-size: 12px;
+  float: right; 
+}
+
+header ul{
+  margin: 0; 
+}
+header li{
+  display: inline-block; 
+  font-size: 12px;
+  padding: 5px;
+}
+
+header, footer{
+  clear: both;
+}
+
+/*
+  ========================================
+  MAIN
+  ========================================
+*/
+
+main{
+    width: 60%; 
+    margin: auto; 
+}
+
+main p{
+font-size: 12px;
+text-align: center;
+}
+main h1{
+ color: rgb(58, 103, 58); 
+ text-align: center;
+}
+main h2{
+  color: rgb(58, 103, 58);
+}
+
+/*
+  ========================================
+  SECTION 1
+  ========================================
+*/
+
+.container{
+  margin: auto;  
+  height: 150px; 
+  width: 60%; 
+  display: flex; 
+  gap: 20px; 
+}
+
+.sec-1{
+  background: white; 
+  height: 120px; 
+  padding: 5px; 
+  width: 33.33%; 
+  font-size: 12px;
+}
+
+/* 
+  ========================================
+  SECTION 2
+  ========================================
+*/
+
+.sec-2{
+  width: 60%; 
+  margin: auto; 
+  margin-top: 0;
+  font-size: 12px;
+ }
+ section blockquote{
+  background: white; 
+  height: 75px; 
+  width: 100%; 
+  margin: 0; 
+  font-size: 14px; 
+ }
+
+ section h2{
+  color: rgb(58, 103, 58);
+}
+.strong{
+  width: 60%; 
+  margin: auto; 
+  padding-bottom: 30px; 
+  padding-top: 10px; 
+  font-size: 14px;
+}
+
+/*
+  ========================================
+  SECTION 3
+  ========================================
+*/
+
+.sec-3 h2{ 
+  width: 60%; 
+  margin: auto; 
+  padding-bottom: 15px; 
+}
+
+.my-form {
+  border: 1px solid rgb(226, 221, 221);
+  width: 60%; 
+  margin: auto; 
+  height: 350px; 
+  padding: 30px;
+  background: white;
+}
+
+.my-form label{
+  padding: 5px; 
+  display: block;  
+  font-weight: 900; 
+  font-size: 14px;
+}
+
+.my-form input{
+  padding: 1%; 
+  width: 100%; 
+}
+
+form button{
+  color: white; 
+  background: rgb(58, 103, 58);
+  height: 30px; 
+  width: 30%; 
+}
+.sec-3, footer{
+  clear: both; 
+}
+/*
+  ========================================
+  FOOTER
+  ========================================
+*/
+footer{
+  width: 100%; 
+  margin: auto; 
+  height: 100px;
+  color: white; 
+  background: rgb(58, 103, 58);
+}
+footer p{
+  font-size: 12px; 
+  text-align: center;
+  padding-top: 30px; 
+  height: 20px; 
+}
