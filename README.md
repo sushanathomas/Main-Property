@@ -2,9 +2,9 @@
 
 Main Property is a website I created for my software engineering coursework.
 
-##Site Preview 
+## Site Preview & Project Preview 
 
-https://main-property.onrender.com
+https://sushanathomas.github.io/Main-Property/
 
 <img width="1344" height="582" alt="Maine Property" src="https://github.com/user-attachments/assets/82a9e1ad-9523-4aa9-a6f6-720cc2ac1cfc" />
 
